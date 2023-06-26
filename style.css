@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+h2{
+    font-weight: 200px;
+}
+/* header{
+    background-color: rgb(19, 137, 146);
+    color: white;
+} */
+header{
+    background-color: rgb(36, 123, 123);
+    color: white;
+    padding: 18px;
+}
+.main div{
+    font-size: 16px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.title{
+    display: flex;
+    grid-row-gap: 20px;
+    grid-column-gap: 10%;
+    justify-content: left;
+    
+}
+.container{
+    display: flex;
+    grid-column-gap: 10%;
+    justify-content: right;
+    font-size: 12px;
+    margin-right: 10%;
+    width: 50%; 
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.first-section{
+    padding-left: 95px;
+    padding-right: 9%;
+    padding-top: 10%;
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+.speech{
+    width: 350px;
+    margin-left: 19px;
+}
+.speech h2{
+    color: rgb(19, 137, 146);
+}
+.image{
+    display: flex;
+    justify-content: right;
+}
+.second-section{
+    background-color: rgb(186, 186, 186);
+    /* display: flex; */
+    margin-top: 35px;
+    padding-left: 95px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.heading{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.design{
+    width: 300px;
+    color: rgb(36, 123, 123);
+}
+.box{
+    background-color: rgb(36, 123, 123);
+    color: white;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    margin-left: 575px;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+.pic{
+    margin-right: 100px;
+    /* justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 50px;
+    row-gap: 30px;
+    /* column-gap: 30px; */
+}
+.third-section{
+    background-color: rgb(36, 123, 123);
+}
+.picture{
+    display: flex;
+    justify-content: right;
+    margin-right: 100px;
+}
+.second-speech{
+    width: 350px;
+    margin-left: 95px;
+    color: white;
+}
+.method{
+    display: flex;
+    justify-content: right;
+    margin-left: 419px;
+    margin-top: 25px;
+}
+.container1{
+    display: flex;
+
+}
+.contact{
+    background-color: white;
+    color: rgb(36, 123, 123);
+    margin-right: 10px;
+    width: 120px;
+    height: 30px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+.call{
+    background-color: rgb(23, 79, 79);
+    color: white;
+    width: 120px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.image1{
+    margin-left: 100px;
+}
+footer{
+    background-color: rgb(23, 79, 79);
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 390px) {
+    header{
+        padding: 0 2rem;
+    }
+    
+}
